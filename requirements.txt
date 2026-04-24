@@ -1,0 +1,32 @@
+﻿# Core runtime
+numpy
+opencv-python==4.5.4.60
+scipy
+numba
+lap
+
+# Inference engines
+onnx==1.12.0
+onnxruntime==1.12.0
+pycuda
+
+# UI and image/text rendering
+PyQt5
+Pillow
+
+# PyTorch stack (for lane export libs / QW25 model runtime)
+torch==1.11.0+cu113
+torchvision==0.12.0+cu113
+torchaudio==0.11.0
+--extra-index-url https://download.pytorch.org/whl/cu113
+
+# QW25
+transformers
+
+# Conversion / quantization helpers
+onnxconverter-common
+onnxsim
+
+# Utility libs used by export/config modules
+addict
+torchsummary

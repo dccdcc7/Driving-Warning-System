@@ -1,4 +1,6 @@
-# Driving-Warning-System
+# Driving Warning System（当前目录版）
+
+本文档基于 **当前仓库实际文件** 整理（你已精简目录后的版本）。
 
 ## 1. 当前项目入口
 
@@ -21,11 +23,11 @@ python demo.py
 - `./ObjectDetector/models/BDG-YOLO.onnx`
 - `./ObjectDetector/models/yolov8n.onnx`
 - `./ObjectDetector/models/yolov9n.onnx`
-- 本研究模型权重weights.zip下载链接: https://pan.baidu.com/s/1VXVJOuY47d9JPNQfSyC3wQ?pwd=6666
+本研究模型权重weights.zip下载链接: https://pan.baidu.com/s/1VXVJOuY47d9JPNQfSyC3wQ?pwd=6666
 
 2. `demo.py` 中默认左/右视频为 `./left.mp4` 与 `./right.mp4`
 改为你已有视频路径
-- 本研究视频集Video.zip下载链接: https://pan.baidu.com/s/1kJD_WJFHN54-YzwG1aqKHg 提取码: 6666 
+本研究视频集Video.zip下载链接: https://pan.baidu.com/s/1kJD_WJFHN54-YzwG1aqKHg 提取码: 6666 
 
 3. `QW25/test.py` 默认模型目录：
 - `./QW25/models/Qwen/Qwen2___5-0___5B-Instruct`
@@ -69,6 +71,5 @@ python onnxQuantization.py -i <input.onnx>
 ```
 
 输出文件会在同目录生成 `<原文件名>_fp16.onnx`。
-
 
 
