@@ -1,7 +1,4 @@
 # Driving-Warning-System
-# Driving Warning System（当前目录版）
-
-本文档基于 **当前仓库实际文件** 整理（你已精简目录后的版本）。
 
 ## 1. 当前项目入口
 
